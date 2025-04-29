@@ -158,6 +158,6 @@ Ground Truth: PCA reduces data dimensionality while preserving variance.
 
 ## Acknowledgements
 
-This repository builds upon the **Spring 2025 AIFirst Project Starter Code** and is inspired by Andrej Karpathy's *zero-to-hero* LLM training framework.
+This repository builds upon the **Spring 2025 AIFirst Project Starter Code**.
 
 All training, testing, and evaluation was conducted from scratch to analyze hyperparameter effects on specialization in academic domains.
