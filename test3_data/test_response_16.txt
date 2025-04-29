@@ -1,0 +1,1 @@
+Random forests prevent overfitting by averaging the predictions of many trees trained on different subsets of data.

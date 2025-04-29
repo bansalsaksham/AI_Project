@@ -1,0 +1,1 @@
+States represent the agent's situation, and actions are the choices available to the agent in the environment.

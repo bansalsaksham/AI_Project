@@ -1,0 +1,1 @@
+How does random forest improve accuracy compared to a single decision tree?

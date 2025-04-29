@@ -1,0 +1,1 @@
+Decision nodes represent decisions based on feature values, while leaf nodes represent final outcomes or classes.
