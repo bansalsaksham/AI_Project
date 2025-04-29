@@ -32,8 +32,8 @@ Unlike generic pretrained LLMs, this project emphasizes:
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.gatech.edu/sbansal91/ECE2806_Final_Project>
-cd <ECE2806_Final_Project>
+git clone https://github.gatech.edu/sbansal91/ECE2806_Final_Project
+cd ECE2806_Final_Project
 ```
 
 ### 2. Set Up Environment
