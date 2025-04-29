@@ -32,19 +32,13 @@ Unlike generic pretrained LLMs, this project emphasizes:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-link>
-cd <your-repo-name>
+git clone <https://github.gatech.edu/sbansal91/ECE2806_Final_Project>
+cd <ECE2806_Final_Project>
 ```
 
 ### 2. Set Up Environment
 
-If using Conda / AI Makerspace:
-```bash
-module load miniconda
-conda activate <your-env-name>
-```
-
-Or install dependencies manually:
+Install dependencies manually:
 ```bash
 pip install -r requirements.txt
 ```
@@ -160,7 +154,6 @@ Ground Truth: PCA reduces data dimensionality while preserving variance.
 - Detailed logging of all experimental settings and outcomes  
 - Support for multiple tokenization strategies (Basic, GPT-2)  
 - Scripted automation for reproducibility  
-- AI Makerspace-compatible setup and training  
 
 ---
 
