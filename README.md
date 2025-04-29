@@ -1,8 +1,7 @@
 # Spring 2025 AI Foundations Project – Fine-Tuning GPT for PCA, Reinforcement Learning, and Decision Trees
 
 **Author:** Saksham Bansal  
-**Course:** ECE2806 – AI Foundations  
-**Repository Type:** Educational Research – AI Customization  
+**Course:** ECE2806 – AI Foundations
 
 ---
 
