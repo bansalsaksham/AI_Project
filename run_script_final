@@ -1,0 +1,42 @@
+#!/bin/bash
+
+mkdir -p models
+
+# 1. Learning Rate Experiments
+for lr in 0.03 0.003 0.0003 0.00003
+do
+    python3 training_base.py --training_file train_data/AI2806.txt --learning_rate $lr --batch_size 64 --n_heads 6 --n_layer 6 --max_iters 500 --save_file models/model_lr_$lr.pth
+    python3 testing_base.py --ckpt models/model_lr_$lr.pth
+done
+
+# 2. Batch Size Experiments
+for bs in 64 128
+do
+    python3 training_base.py --training_file train_data/AI2806.txt --learning_rate 0.0003 --batch_size $bs --n_heads 6 --n_layer 6 --max_iters 500 --save_file models/model_bs_$bs.pth
+    python3 testing_base.py --ckpt models/model_bs_$bs.pth
+done
+
+# 3. Max Iterations Experiments (Expanded)
+for iters in 500 1000 2000 3000 4000 5000 10000
+do
+    python3 training_base.py --training_file train_data/AI2806.txt --learning_rate 0.0003 --batch_size 64 --n_heads 6 --n_layer 6 --max_iters $iters --save_file models/model_iters_$iters.pth
+    python3 testing_base.py --ckpt models/model_iters_$iters.pth
+done
+
+# 4. Number of Heads Experiments
+for heads in 4 6 8
+do
+    python3 training_base.py --training_file train_data/AI2806.txt --learning_rate 0.0003 --batch_size 64 --n_heads $heads --n_layer 6 --max_iters 500 --save_file models/model_heads_$heads.pth
+    python3 testing_base.py --ckpt models/model_heads_$heads.pth
+done
+
+# 5. Number of Layers Experiments
+for layers in 4 6 8
+do
+    python3 training_base.py --training_file train_data/AI2806.txt --learning_rate 0.0003 --batch_size 64 --n_heads 6 --n_layer $layers --max_iters 500 --save_file models/model_layers_$layers.pth
+    python3 testing_base.py --ckpt models/model_layers_$layers.pth
+done
+
+# 6. Tokenizer Experiments
+python3 training_tokenizer.py --training_file train_data/AI2806.txt --tokenization_strategy "GPT2" --save_file models/model_tokenizer_gpt2.pth
+python3 testing_tokenizer.py --ckpt models/model_tokenizer_gpt2.pth
