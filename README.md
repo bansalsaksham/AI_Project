@@ -3,13 +3,13 @@
 > **Spring 2025 · ECE2806 AI Foundations · Georgia Institute of Technology**  
 > *Saksham Bansal · sakshambansal@gatech.edu*
 
-Fine-tuning a GPT-style transformer from scratch on a curated academic corpus covering **Principal Component Analysis (PCA)**, **Reinforcement Learning (RL)**, and **Decision Trees (DT)** — with systematic hyperparameter sweeps evaluated via ROUGE and Levenshtein distance.
+Fine-tuning a GPT-style transformer from scratch on a curated academic corpus covering **Principal Component Analysis (PCA)**, **Reinforcement Learning (RL)**, and **Decision Trees (DT)** - with systematic hyperparameter sweeps evaluated via ROUGE and Levenshtein distance.
 
 ---
 
 ## Motivation
 
-Generic LLMs trained on web-scale data lack technical depth in niche academic domains — they misuse terminology and fail to produce structured reasoning. This project demonstrates that **focused fine-tuning on a small, curated dataset** can meaningfully improve domain-specific coherence and accuracy, without scaling model size.
+Generic LLMs trained on web-scale data lack technical depth in niche academic domains - they misuse terminology and fail to produce structured reasoning. This project demonstrates that **focused fine-tuning on a small, curated dataset** can meaningfully improve domain-specific coherence and accuracy, without scaling model size.
 
 ---
 
@@ -49,9 +49,9 @@ One parameter was varied per experiment, keeping all others fixed.
 ### Evaluation
 Models tested on **16 standardized prompt–answer pairs** using:
 - **Levenshtein Distance** — character-level edit distance (lower = better)
-- **ROUGE-1** — unigram word overlap
-- **ROUGE-2** — bigram phrase overlap
-- **ROUGE-L** — longest common subsequence
+- **ROUGE-1** - unigram word overlap
+- **ROUGE-2** - bigram phrase overlap
+- **ROUGE-L** - longest common subsequence
 
 ---
 
@@ -181,11 +181,11 @@ bash run_script_final
 
 ## Challenges
 
-- **CUDA memory limits** — batch sizes above 128 caused out-of-memory errors.
-- **Learning rate sensitivity** — small changes had large effects on convergence stability.
-- **Dataset size** — limited corpus restricted generalization capacity.
-- **Metric fragility** — ROUGE and Levenshtein don't fully capture semantic correctness.
-- **Training time** — runs up to 10,000 iterations required careful GPU scheduling.
+- **CUDA memory limits** - batch sizes above 128 caused out-of-memory errors.
+- **Learning rate sensitivity** - small changes had large effects on convergence stability.
+- **Dataset size** - limited corpus restricted generalization capacity.
+- **Metric fragility** - ROUGE and Levenshtein don't fully capture semantic correctness.
+- **Training time** - runs up to 10,000 iterations required careful GPU scheduling.
 
 ---
 
