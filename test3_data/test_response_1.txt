@@ -1,1 +1,0 @@
-PCA is a technique for reducing the dimensionality of data while preserving as much variance as possible.

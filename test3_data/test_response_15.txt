@@ -1,1 +1,0 @@
-Overfitting occurs when a decision tree becomes too complex and fits noise in the training data rather than the true pattern.

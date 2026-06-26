@@ -1,1 +1,0 @@
-The environment provides the setting in which the agent acts and receives feedback in the form of rewards.

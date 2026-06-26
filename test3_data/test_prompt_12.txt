@@ -1,1 +1,0 @@
-What are decision nodes and leaf nodes in a decision tree?

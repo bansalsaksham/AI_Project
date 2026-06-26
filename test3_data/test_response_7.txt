@@ -1,1 +1,0 @@
-In reinforcement learning, agents learn from rewards or penalties instead of from labeled examples as in supervised learning.

@@ -1,1 +1,0 @@
-Rewards are feedback signals that indicate how good or bad an action taken by the agent was.
