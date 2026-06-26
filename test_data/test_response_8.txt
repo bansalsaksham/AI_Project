@@ -1,0 +1,1 @@
+Q-learning is a model-free reinforcement learning algorithm that learns the value of actions without requiring a model of the environment.

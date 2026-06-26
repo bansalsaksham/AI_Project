@@ -1,0 +1,1 @@
+A decision tree is a flowchart-like structure used for classification and regression tasks.

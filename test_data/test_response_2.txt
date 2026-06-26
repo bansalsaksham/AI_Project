@@ -1,0 +1,1 @@
+PCA is used in data compression, noise reduction, visualization, and feature extraction.

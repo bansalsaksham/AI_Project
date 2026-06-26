@@ -1,0 +1,1 @@
+Random forests combine many decision trees to improve prediction accuracy and control overfitting.

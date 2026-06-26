@@ -1,0 +1,1 @@
+A random forest builds multiple trees on random subsets of the data and averages their predictions to reduce variance.
